@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Este es el titulo de mi sitio web</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    
+    <style>
+        body {
+            height: 665px;
+            background-image: url("fondo.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-size: 100% 100%;
+            height: 1400px;
+            
+ }
+ </style>
+
+    <section>
+        <nav>
+            <button class="nav-botom" onclick="accion()">Menu</button>
+            <a href="" class="nav-enlace desaparece">Inicio</a>
+            <a href="" class="nav-enlace desaparece">Nosotros</a>
+            <a href="" class="nav-enlace desaparece">Servicio</a>
+            <a href="" class="nav-enlace desaparece">Contacto</a>
+        </nav>
+    </section>
+    <script>
+        function accion() {
+            var ancla = document.getElementsByClassName("nav-enlace");
+            for (let i = 0; i < ancla.length; i++) {
+                ancla[i].classList.toggle("desaparece");
+
+            }
+        }
+    </script>
+
+    <section class="container text-center">
+        <div class="columna">
+            <h2>Plan uno</h2>
+            <p class="precio">$500</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <hr>
+            <p>Lorem, ipsum dolor</p>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <p>Lorem, ipsum</p>
+            <hr>
+            <a href="#" class="btn-precio">Comprar</a>
+        </div>
+
+        <div class="columna">
+        <h2>Plan uno</h2>
+        <p class="precio">$500</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <hr>
+        <p>Lorem, ipsum dolor</p>
+        <p>Lorem ipsum dolor sit amet consectetur</p>
+        <p>Lorem, ipsum</p>
+        <hr>
+        <a href="#" class="btn-precio">Comprar</a>
+        </div>
+        
+        <div class="columna ">
+        <h2>Plan uno</h2>
+        <p class="precio">$500</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <hr>
+        <p>Lorem, ipsum dolor</p>
+        <p>Lorem ipsum dolor sit amet consectetur</p>
+        <p>Lorem, ipsum</p>
+        <hr>
+        <a href="#" class="btn-precio">Comprar</a>
+        </div>
+
+        <div class="columna ">
+        <h2>Plan uno</h2>
+        <p class="precio">$500</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <hr>
+        <p>Lorem, ipsum dolor</p>
+        <p>Lorem ipsum dolor sit amet consectetur</p>
+        <p>Lorem, ipsum</p>
+        <hr>
+        <a href="#" class="btn-precio">Comprar</a>
+        </div>
+    </section>
+
+
+
+</body>
+</html>
